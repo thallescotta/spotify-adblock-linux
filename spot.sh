@@ -3,7 +3,8 @@
 echo -e "starting the process"
 blue=$(tput setaf 6)
 cd ~
-wget https://repository-origin.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.2.26.1187.g36b715a1_amd64.deb
+wget https://repository-origin.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.2.31.1205.g4d59ad7c_amd64.deb
+
 
 debfile=`find /home -iname "*spotify-client_1*amd64.deb"`
 echo ${blue}"found spotify deb file on" $debfile ${txtrst}
